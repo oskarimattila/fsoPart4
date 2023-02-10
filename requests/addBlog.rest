@@ -1,9 +1,10 @@
 POST http://localhost:3001/api/blogs
 Content-Type: application/json
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InBldHJhLWFsYWhhcmp1bGEiLCJpZCI6IjYzZTY0OWQ1ZTJkZTBhNjQ4ZTcwZmMzYyIsImlhdCI6MTY3NjAzODg1MiwiZXhwIjoxNjc2MDQyNDUyfQ.aaunXLyoHNLNQbrKdQ5uodM1CZL3zJf8h6_bL2hpX8U
 
 {
-  "title": "Nean blogi",
-  "author": "Nea",
-  "url": "http//:google.com",
-  "likes": 7
+  "title": "Rakkausrunoja tommille",
+  "author": "Petra",
+  "url": "http://blog.cleancoder.com/uncle-bob/2017/03/03/TDD-Harms-Architecture.html",
+  "likes": 0
 }
